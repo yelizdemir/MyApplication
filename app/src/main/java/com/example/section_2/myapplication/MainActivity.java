@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         txtMesaj =(TextView) findViewById(R.id.txt_mesaj);
         txtMesaj.setText(R.string.karsilama_html);
+        txtMesaj.setTextSize(28);
 
 
     }
